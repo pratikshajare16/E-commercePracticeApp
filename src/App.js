@@ -9,20 +9,28 @@ import './App.css'
 import { useEffect } from "react";
 import Header from "./E-Commerce-App/Components/Navigation/Header";
 import RouteBars from "./E-Commerce-App/Components/Navigation/RouteBars";
+import StopWatch from "./StopWatch/StopWatch";
 export default function App() {
 
   return (
+    //StopWatch Example
 
-    <div className="App">
-      <RouteBars />
-    </div>
+    <StopWatch />
+
+    //E-Commerce App
+
+    // <div className="App">
+    //   <RouteBars />
+    // </div>
 
     // Routing Example
+
     // <div className="App">
     //   <NavBar />
     // </div>
 
     // //ContextAPI Example
+
     // <ThemeProvider>
     //   <ThemedComponent />
     // </ThemeProvider>
