@@ -13,6 +13,41 @@
   }
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .active {
+  color: skyblue;
+}
+
+.navbar li {
+  display: inline-block;
+
+}
+
+.nav-bar-link {
+  text-decoration: none;
+  color: #333;
+  padding: 0 15px;
+}
+
+.required-input::placeholder {
+  color: gray;
+}
+
+.required-input::before {
+  content: '* ';
+  color: red;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +67,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
