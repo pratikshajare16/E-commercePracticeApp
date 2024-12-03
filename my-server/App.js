@@ -9,14 +9,6 @@ const mongoose = require('mongoose')
 const userRoutes = require('./API/routes/user')
 const productRoutes = require('./API/routes/products');
 
-//connection with mongodb get url from mongodb website 
-mongoose.connect('mongodb+srv://jarepratiksha:1WD3Duc1GgMDBXea@node-shop-cluster.d6o6gxa.mongodb.net/E_Commerce_DB')
-    .then(() => {
-        console.log('MongoDB connected successfully');
-    })
-    .catch(err => {
-        console.error('MongoDB connection error:', err);
-    });
 
 
 
